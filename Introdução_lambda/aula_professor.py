@@ -22,11 +22,11 @@ lista = [
     {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
-
 def ordena(item):
+    print(item)
     return item['sobrenome']
 
-lista.sort(key=ordena)
+lista.sort(key=ordena) 
 
 for item in lista:
     print(item)
