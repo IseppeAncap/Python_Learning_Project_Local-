@@ -1,26 +1,25 @@
-<<<<<<< HEAD
+# Estudos e anotações de Pyhton
 
 
-        
-=======
-# Python Learning Project
+Este repositório reune meus estudos, anotações de exercicios em Python.
+Cada tema está organizado em pastas proprias, contendo README explicando o que foi aprendido da minha parte.
 
-Este repositório é destinado aos meus estudos em Python.
+# Conteúdo 
 
-## Objetivos
+## Introdução a lambda
 
-- Registrar exercícios e desafios.
-- Criar explicações detalhadas desses desafios.
-- Criar uma referência pessoal para consultas futuras.
+### 01 Entendendo Key e ordenação com metodos
 
-## Estrutura do Projeto
+- [Codigo](./01_entendendo_key_sorted/01_key_sorted_ordem.py)
+- [Anotações](./01_entendendo_key_sorted/Readme_key_sorted_ordem.md)
 
-Cada pasta terá um tema de aula principal, contendo:
-
-- Um arquivo `README.md` detalhando o conteúdo da aula.
-- Subpastas com exercícios e desafios para fixar o conhecimento passado.
+### 02 Mesmo codigo otimizado com função lambda
+- [Código](./02_otimizando_com_lambda/02_otimizando_com_lambda.py)
+- [Anotações](./02_otimizando_com_lambda/Readme_otimizando_com_lambda.md)
 
 ---
 
-Este projeto serve como registro do meu aprendizado.
->>>>>>> 7d81ae6 (Acabo de criar Readme.md do projeto principal)
+Novos temas serão adicionados conforme avanço no aprendizado.
+
+
+
