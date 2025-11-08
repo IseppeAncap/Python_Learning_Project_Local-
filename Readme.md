@@ -10,12 +10,12 @@ Cada tema está organizado em pastas proprias, contendo README explicando o que 
 
 ### 01 Entendendo Key e ordenação com metodos
 
-- [Codigo](./01_entendendo_key_sorted/01_key_sorted_ordem.py)
-- [Anotações](./01_entendendo_key_sorted/Readme_key_sorted_ordem.md)
+- [Codigo](.Introdução_lambda/01_entendendo_key_sorted/01_key_sorted_ordem.py)
+- [Anotações](.Introdução_lambda/01_entendendo_key_sorted/Readme_key_sorted_ordem.md)
 
 ### 02 Mesmo codigo otimizado com função lambda
-- [Código](./02_otimizando_com_lambda/02_otimizando_com_lambda.py)
-- [Anotações](./02_otimizando_com_lambda/Readme_otimizando_com_lambda.md)
+- [Código](.Introdução_lambda/02_otimizando_com_lambda/02_otimizando_com_lambda.py)
+- [Anotações](.Introdução_lambda/02_otimizando_com_lambda/Readme_otimizando_com_lambda.md)
 
 ---
 
