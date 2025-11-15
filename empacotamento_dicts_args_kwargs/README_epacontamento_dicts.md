@@ -10,13 +10,13 @@ Resumo baseado na aula 83
 - O que são argumentos nomeados (`kwargs`).
 
 
-## O que seria um asterisco `*`
+## O que seria o asterisco `*`
  Ele serve para`Upacking e Packing` valores
  
  Quando você usa `*` em um **parametro de função** ele empacota varios argumentos em uma tupla!
 
 Exemplo empacotamento ´Pancking´
-```
+```python
 def soma (* numeros)
    return sum(numeros) 
 
@@ -30,12 +30,12 @@ Saida:
  `*` para `Unpacking` **desempacotar argumentos**
 
 Exemplo (Unpacking)
-```
+```python
  numeros =(1, 2, 3, 4)
  print(* numeros) 
 ```
 Saida 
-```
+```python
 1 2 3 4 
 ```
 ------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Saida
 Quando usado `**` em **argumentos nomeados** os chamados (kwargs) são empacotados em `dict`.
 
 Exemplo
-```
+```python
  def mostar_dados(** dados)
     return dados
 
@@ -52,11 +52,11 @@ processamento =mostrar_dados(nome=janio, idade=20)
 print(processamento) 
 ```
 Saida
-```
+```python
  {"nome":"janio", "idade": 20}
 ```
 desempacotando `Unpacking`.
-```
+```pyhton
 dados_usuario = {"nome":"janio", "idade": 20}
 
 def mostar_dados( dados)
@@ -67,21 +67,21 @@ print(´**`processamento)
 ```
 Saida
 
-```
+```python
 "nome":"janio", "idade": 20
 ```
 ------------------------------------------------------
 ## 📎 Exemplos desempacotamento empacotamento sem funções
 
 # Empacotamento ´Packing` sem o uso asterisco
-```
+```python
 a, b = 1, 2        # `Packing` normal
-a, b = b, a        # troca usando `Packing` + `Unpacking` 
+a, b = b, a        # troca usando `Packing` + 
 print(a, b)
 ```
 
 # Até string podem ser Unpacking
-```
+```python
 letras = [janio]
 print(*letras)
 Saida
@@ -89,7 +89,7 @@ Saida
 ```
 # Juntando dicionarios 
 
-```
+```python
 pessoa = { 
     "nome": "Aline",
     "sobrenome": "Souza",
@@ -105,7 +105,9 @@ dados_pessoas = {
 
 
 pessoa_completa = {}
-pessoa_completa= {**pessoa, **dados_pessoas} #desempacontando em terceiro
+# desempacotando em terceiro dicionário
+pessoa_completa= {**pessoa, **dados_pessoas} 
+
 print(pessoa_completa)
 ```
 
@@ -128,14 +130,14 @@ print(pessoa_completa)
 
 ## Argumentos posicionais `args`
 **Argumetos posicionais** `args` são valores passados **sem nome**,e que cuja a  **ordem importam** e que são passados `*args` e todos esses valores são passados como uma tupla.
-```
+```python
 def somar (* numeros) # args
     return sum (numeros)
 
 total = somar(1, 3, 5, 6,)
 ```
 Saida
-```
+```python
  print(total) 
 ```
 
@@ -149,5 +151,5 @@ O uso do duplo asterisco `**` permite **capturar ou desempacotar argumentos nome
 
 | Situação                         | O que faz                                   | Exemplo                                   | Resultado                              |
 |----------------------------------|--------------------------------------------|-------------------------------------------|----------------------------------------|
-| Dentro da definição da função     | Captura argumentos nomeados em um dicionário | `def f(**kwargs): print(kwargs)`          | `f(a=1, b=2)` → `{'a': 1, 'b': 2}`    |
+| Dentro da definição da função     | Captura argumentos nomeados em um dicionário | `def f(**kwargs): print(kwargs)`          | `f(a=1, b=2)` → `{'a': 1, 'b': 2}`   |
 | Na chamada da função              | Desempacota um dicionário em argumentos nomeados | `dados = {'a': 1, 'b': 2}` <br> `f(**dados)` | `a=1, b=2` passado para `f`           |
