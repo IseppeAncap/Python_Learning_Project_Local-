@@ -4,7 +4,7 @@
 Este repositório reune meus estudos, anotações de exercicios em Python.
 Cada tema está organizado em pastas proprias, contendo README explicando o que foi aprendido da minha parte.
 
-# Conteúdo 
+# 📚  Conteúdo 
 
 ## Introdução a lambda
 
@@ -17,8 +17,13 @@ Cada tema está organizado em pastas proprias, contendo README explicando o que 
 - [Código](Introdução_lambda/02_otimizando_com_lambda/02_otimizando_com_lambda.py)
 - [Anotações](Introdução_lambda/02_otimizando_com_lambda/Readme_otimizando_com_lambda.md)
 
----
+--
+### Empacotando e desempacotando (args kwargs dicts)
 
+- [Codigo](empacotamento_dicts_args_kwargs/empacotamento_dicts_args_kwargs.py)
+- [Anotações](empacotamento_dicts_args_kwargs/README_epacontamento_dicts.md)
+
+--
 Novos temas serão adicionados conforme avanço no aprendizado.
 
 
