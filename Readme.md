@@ -21,8 +21,13 @@ Cada tema está organizado em pastas proprias, contendo README explicando o que 
 ### Empacotando e desempacotando (args kwargs dicts)
 
 - [Codigo](empacotamento_dicts_args_kwargs/empacotamento_dicts_args_kwargs.py)
-- [Anotações](empacotamento_dicts_args_kwargs/README_epacontamento_dicts.md)
+- [Resumo](empacotamento_dicts_args_kwargs/README_epacontamento_dicts.md)
 
+--
+### dict compreshension e set comprehension
+
+-   [Codigo](dictionary_comprehension_set_comprehension/dictionary_comprehension_set_comprehension.py)
+- [Resumo](dictionary_comprehension_set_comprehension/dictionary_comprehension_set_comprehension.py)
 --
 Novos temas serão adicionados conforme avanço no aprendizado.
 
