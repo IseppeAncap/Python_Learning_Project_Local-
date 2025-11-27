@@ -1,11 +1,14 @@
 
 # Dictionary Comprehension e Set Comprehension 
 
--conteúdo
-Quando vale pena usar Set Comprehension
-Onde é aplicavél usar Dictionary Comprenhesion
-## Dictionary Comprehension é jeito rapido de criar dioncarios assim como criar uma compreessão de lista 
-# exemplo 1 mapeado e filtrando 
+- 
+- Aplicações reais continua ....
+
+
+## Dictionary Comprehension 
+### É uma forma **rapída, clara e concisa** de criar de diciónarios em uma uníca linha assim como list comprehension, com a diferença **pares chave e valor**
+
+## Exemplo 1 - **Mapeado e Filtrando** 
 ```
 produto = {
     'nome': 'caneta azul',
@@ -21,9 +24,13 @@ print(dc)
 
 ```
 
-## Isso seria mais util  se vc precisar mapear de uma tupla pro exemplo.
+## Exemplos 2 - A partir de **lista/tupla de pares**.
 ```python
-tupla_produtos = [('nome', 'caneta azul'), ('preco', 1.6), ('categoria', 'Escritorio')]
+tupla_produtos = [
+    ('nome', 'caneta azul'),
+    ('preco', 1.6),
+    ('categoria', 'Escritorio')
+]
 
 dc = {
     chave : valor 
@@ -32,10 +39,6 @@ dc = {
 print(dc)
 
 ```
-
-
-
-
 
 ### Erros inesperados.
 
@@ -59,16 +62,20 @@ nome preco categoria
 ```
 
 
-## Set comprehesion 
-**Alerta** : Um set **Não** têm valores repetidos e **Não** têm ordem
+## Set comprehension 
+
+- Set comprehension é usado para criar `set` **conjutos sem repetição**.
+- É usado para **remover duplicadas** 
+- **Não matém ordem**,
+- **Não aceita valores duplicados**.
 
 ```python
-# Set Comprehesion remover duplicadas.
-
 s1 = {
     i 
     for i in [1, 1, 2, 2, 3, 3]
 }
 print(s1)
+# Saída
+{1, 2, 3, 4}
 
 ```
